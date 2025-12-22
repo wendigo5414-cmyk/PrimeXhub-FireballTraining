@@ -69,6 +69,7 @@ local function startLoop()
 	loopEnabled = true
 	spawn(function()
 		while loopEnabled do
+			checkForImportantTool()  -- Check and update tool name
 			fireEvent()
 			wait(0.05)  -- Fast event firing
 		end
