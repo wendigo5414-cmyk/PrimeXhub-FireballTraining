@@ -5,7 +5,7 @@ local UserInputService = game:GetService("UserInputService")
 -- Variables
 local loopEnabled = false
 local loopConnection
-local currentToolName = "Scythe"
+local currentToolName = "Tool Detecting..."
 
 -- Function to recursively check for ImportantTool in all children
 local function checkForImportantTool()
